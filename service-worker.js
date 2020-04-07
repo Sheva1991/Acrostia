@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Acrostia/precache-manifest.082298af0d03bb692b924f693b2a144e.js"
+  "/Acrostia/precache-manifest.de21e9c017fae5127988080fb9df74a6.js"
 );
 
 self.addEventListener('message', (event) => {

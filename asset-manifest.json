@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Acrostia/static/css/main.c5d21c31.chunk.css",
-    "main.js": "/Acrostia/static/js/main.9d9dccfb.chunk.js",
-    "main.js.map": "/Acrostia/static/js/main.9d9dccfb.chunk.js.map",
+    "main.js": "/Acrostia/static/js/main.ce5712d4.chunk.js",
+    "main.js.map": "/Acrostia/static/js/main.ce5712d4.chunk.js.map",
     "runtime-main.js": "/Acrostia/static/js/runtime-main.d9fe9bc8.js",
     "runtime-main.js.map": "/Acrostia/static/js/runtime-main.d9fe9bc8.js.map",
     "static/css/2.54cdbe0e.chunk.css": "/Acrostia/static/css/2.54cdbe0e.chunk.css",
@@ -23,7 +23,7 @@
     "static/js/7.a11c5414.chunk.js": "/Acrostia/static/js/7.a11c5414.chunk.js",
     "static/js/7.a11c5414.chunk.js.map": "/Acrostia/static/js/7.a11c5414.chunk.js.map",
     "index.html": "/Acrostia/index.html",
-    "precache-manifest.082298af0d03bb692b924f693b2a144e.js": "/Acrostia/precache-manifest.082298af0d03bb692b924f693b2a144e.js",
+    "precache-manifest.de21e9c017fae5127988080fb9df74a6.js": "/Acrostia/precache-manifest.de21e9c017fae5127988080fb9df74a6.js",
     "service-worker.js": "/Acrostia/service-worker.js",
     "static/css/2.54cdbe0e.chunk.css.map": "/Acrostia/static/css/2.54cdbe0e.chunk.css.map",
     "static/css/4.7dab1f09.chunk.css.map": "/Acrostia/static/css/4.7dab1f09.chunk.css.map",
@@ -59,6 +59,6 @@
     "static/css/2.54cdbe0e.chunk.css",
     "static/js/2.5ee105ad.chunk.js",
     "static/css/main.c5d21c31.chunk.css",
-    "static/js/main.9d9dccfb.chunk.js"
+    "static/js/main.ce5712d4.chunk.js"
   ]
 }

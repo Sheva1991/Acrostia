@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "44edcfd1e9f12f2ce36315b47fb485ab",
+    "revision": "b048ee6328cde1a5b2496b9190de93b7",
     "url": "/Acrostia/index.html"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Acrostia/static/css/7.2b810bfb.chunk.css"
   },
   {
-    "revision": "601fe3a380a16b699663",
+    "revision": "5937edf9b87c25d481d3",
     "url": "/Acrostia/static/css/main.c5d21c31.chunk.css"
   },
   {
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Acrostia/static/js/7.a11c5414.chunk.js"
   },
   {
-    "revision": "601fe3a380a16b699663",
-    "url": "/Acrostia/static/js/main.9d9dccfb.chunk.js"
+    "revision": "5937edf9b87c25d481d3",
+    "url": "/Acrostia/static/js/main.ce5712d4.chunk.js"
   },
   {
     "revision": "3c6a5fb74ccbc380f883",
