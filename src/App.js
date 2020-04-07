@@ -67,7 +67,7 @@ let AppContainer = compose(
 
 const JSApp = (props) => {
   // для gh-pages используем hashrouter
-  return <HashRouter basename={process.env.PUBLIC_URL}>
+  return <HashRouter basename={process.env.PUBLIC_URL === '/'}>
     <Provider store={store}>
       <AppContainer />
     </Provider>
