@@ -1,0 +1,35 @@
+.about {
+    min-height: 100vh;
+    padding-top: 150px;
+    padding-bottom: 120px;
+    background: #665464;
+    transition: all 0.4s ease-out;
+
+    &__title {
+        background-color: #a1ca6c;
+        line-height: 1;
+        text-transform: uppercase;
+        font-weight: black;
+        padding: 15px 40px;
+        border-radius: 5px;
+        position: relative;
+        margin-bottom: 70px;
+
+        &:after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            bottom: -40px;
+            transform: translate(-50%, 0);
+            border: 20px solid transparent;
+            border-top: 20px solid #a1ca6c;
+        }
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .about {
+        padding: 70px 0;
+    }
+}

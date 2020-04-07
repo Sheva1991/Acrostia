@@ -1,0 +1,127 @@
+.menu {
+    display: flex;
+    justify-content: flex-end;
+
+    &__item {
+        border-radius: 5px;
+        transition: all 0.4s ease-in-out;
+        font-size: 1.125rem;
+
+        a {
+            display: block;
+            text-decoration: none;
+            color: #fff;
+            padding: 40px 25px 15px 25px;
+        }
+
+        &:nth-child(1) {
+
+            &:hover,
+            &:focus,
+            &:active {
+                background-color: #74c7d5;
+            }
+        }
+
+        &:nth-child(2) {
+
+            &:hover,
+            &:focus,
+            &:active {
+                background-color: #df5c64;
+            }
+        }
+
+        &:nth-child(3) {
+
+            &:hover,
+            &:focus,
+            &:active {
+                background-color: #91778e;
+            }
+        }
+
+        &:nth-child(4) {
+
+            &:hover,
+            &:focus,
+            &:active {
+                background-color: #a1ca6c;
+            }
+        }
+
+        &:nth-child(5) {
+
+            &:hover,
+            &:focus,
+            &:active {
+                background-color: #82c8bd;
+            }
+        }
+
+    }
+
+}
+
+.toggler {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-size: 30px;
+    color: #fff;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    display: none;
+
+    &:active,
+    &:focus {
+        border: none;
+        outline: none;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .toggler {
+        display: block;
+        position: absolute;
+        z-index: 10;
+        right: 20px;
+        top: 25px;
+    }
+
+    .menu {
+        display: none;
+        padding: 30px;
+        transform: translate(100%, 0);
+
+        &__item {
+            a {
+                padding: 25px;
+            }
+        }
+    }
+
+    .menu--active {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: fixed;
+        right: 0;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        transform: translate(0, 0);
+        background-color: rgba(0, 0, 0, 0.7);
+
+
+        .menu__item {
+            font-size: 2rem;
+
+            a {
+                padding: 25px 100px;
+            }
+        }
+    }
+}

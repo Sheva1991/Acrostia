@@ -1,0 +1,22 @@
+.header {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 3.125rem;
+    line-height: 1;
+    font-family: 'Damion', cursive;
+}
+
+@media screen and (max-width: 576px) {
+    .logo {
+        display: block;
+        padding-top: 20px;
+    }
+
+
+}

@@ -1,0 +1,75 @@
+.formControl input,
+.formControl textarea {
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    width: 100%;
+    margin-bottom: 20px;
+    resize: none;
+    background-color: #68a097;
+    outline: none;
+    color: #82c8bd;
+}
+
+
+.formControl input:hover,
+.formControl input:focus,
+.formControl input:active,
+.formControl textarea:hover,
+.formControl textarea:focus,
+.formControl textarea:active {
+    background-color: #f6f6f6;
+}
+
+.formControl textarea {
+    height: 160px;
+}
+
+.formControl.error input,
+.formControl.error textarea {
+    border: 2px solid red;
+}
+
+.formControl.error span {
+    color: red;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.formSummaryError {
+    border: 2 px solid red;
+    color: red;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #82c8bd;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #82c8bd;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #82c8bd;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #82c8bd;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+}
